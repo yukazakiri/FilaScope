@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Yukazakiri\FilaScope\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilaScopeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filascope';
 
     public $description = 'My command';
 

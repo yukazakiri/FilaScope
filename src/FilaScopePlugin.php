@@ -1,15 +1,15 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Yukazakiri\FilaScope;
 
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
-class SkeletonPlugin implements Plugin
+class FilaScopePlugin implements Plugin
 {
     public function getId(): string
     {
-        return 'skeleton';
+        return 'filascope';
     }
 
     public function register(Panel $panel): void
